@@ -1,5 +1,3 @@
-## reproducible code for paper 
-
 library(ggplot2)
 library (tidyverse)
 library(reshape2)
@@ -15,7 +13,6 @@ library(svglite)
 # CSV containing tally of TP contaminants/mitochondria, FN and FP contaminants
 input_scaffolds = "~/Documents/ROCKU/decontam_analyses/decontam_stats_scaffolds.csv" 
 input_bases = "~/Documents/ROCKU/decontam_analyses/decontam_stats_bases.csv"
-
 
 scaffolds <- read.csv(input_scaffolds,
                       header = TRUE,
@@ -118,5 +115,5 @@ bases_perc_plot <- plot_perc_bases(bases_clean)
 scaffolds_perc_plot
 bases_perc_plot
 
-ggsave(filename = "bases_perc_plot.svg", plot = bases_perc_plot, width = 6, height = 4)
-ggsave(filename = "scaffolds_perc_plot.svg", plot = scaffolds_perc_plot, width = 6, height = 4)
+ggsave(filename = "/Users/nadolinabrajuka/Documents/ROCKU/decontam_analyses/bases_perc_plot.svg", plot = bases_perc_plot, width = 6, height = 4)
+ggsave(filename = "/Users/nadolinabrajuka/Documents/ROCKU/decontam_analyses/scaffolds_perc_plot.svg", plot = scaffolds_perc_plot, width = 6, height = 4)

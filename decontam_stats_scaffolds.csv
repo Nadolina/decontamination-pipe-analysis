@@ -1,0 +1,20 @@
+﻿assembly,ground truth ,TP,FP contams,FN contams,TOLID,taxa
+European fire-bellied toad,2,2,0,0,aBomBom1.pri,amphibian
+Maguari stork,2,0,0,2,bCicMag1.pri,bird
+House finch,0,0,0,0,bHaeMex1.pri,bird
+Budgerigar (mat),2,2,2,0,bMelUnd1.mat,bird
+Budgerigar (pat),8,5,1,3,bMelUnd1.pat,bird
+Kākāpō,34,34,0,0,bStrHab1.pri,bird
+Mudskipper (P. magnuspinnatus),1,1,0,0,fPerMag1.pri,fish
+Chub mackerel ,1,1,0,0,fScoJap1.pri,fish
+African grass rat (mat),5,5,0,0,mArvNil1.mat,mammal
+African grass rat (pat),14,14,0,0,mArvNil1.pat,mammal
+Southern tamandua,0,0,0,0,mTamTet1.pri,mammal
+Black rhinoceros (pat),0,0,0,0,mDicBic1.pat,mammal
+Black rhinoceros  (mat),2,2,0,0,mDicBic1.mat,mammal
+Clouded leopard ,1,1,0,0,mNeoNeb1.pri,mammal
+Common bottlenose dolphin (mat),131,131,0,0,mTurTru1.mat,mammal
+Common bottlenose dolphin (pat),117,116,0,1,mTurTru1.pat,mammal
+Bolson tortoise (mat),3,3,0,0,rGopFla2.mat,reptile
+Bolson tortoise (pat),2,2,0,0,rGopFla2.pat,reptile
+Great white shark,19,18,0,1,sCarCar2.pat,shark
